@@ -50,4 +50,4 @@ will be generated and stored in defined location.
 
 #### Test cases:
 
-Test cases will be written under test/java folder
+Test cases will be written under test/java folder.
