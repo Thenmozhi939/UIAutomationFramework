@@ -18,24 +18,36 @@ Clone the repository git clone https://github.com/Thenmozhi939/UIAutomationFrame
 
 ### Packages in the framework:
 
-#### **Base:**In base class initialisation of driver, loading properties file, loading Excel file and handling synchronization issues.
+#### Base:
 
-#### **Config package:**Configurations like which browser to run the tests, user defined here
+In base class initialisation of driver, loading properties file, loading Excel file and handling synchronization issues.
 
-#### **Resources:**
+#### Config package:
 
-##### **globalPackage:** It contains the common XPath and common methods which were used throughout the framework.
+Configurations like which browser to run the tests, user defined here
 
-##### **staticPackage:** Defined the static variables which were used throughout the framework.
+#### Resources:
 
-#### **Utilities:** classes for storing evidences,reporting.
+##### GlobalPackage:
 
-##### **Excel utility:** It helps to retrieve the data from Excel and pass it to the scripts.
+It contains the common XPath and common methods which were used throughout the framework.
 
-##### **Extent utility:** It helps to generate the most informative reports with the help of IReporter.
+##### StaticPackage:
 
-##### **Screenshot utility:** It helps to take the screenshot of the page of every testcase in unique directories.
+Defined the static variables which were used throughout the framework.
 
-#### **extent report:** will be generated and stored in defined location.
+#### Utilities:
 
-#### **Test cases:** Test cases will be written under test/java folder
+classes for storing evidences,reporting.
+
+* Excel utility:It helps to retrieve the data from Excel and pass it to the scripts.
+* Extent utility:It helps to generate the most informative reports with the help of IReporter.
+* Screenshot utility:It helps to take the screenshot of the page of every testcase in unique directories.
+
+#### Extent report:
+
+will be generated and stored in defined location.
+
+#### Test cases:
+
+Test cases will be written under test/java folder
